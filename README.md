@@ -2,7 +2,7 @@
 
 Built a Real time customer review system that takes a review from the customer and shows all existing reviews too.
 
-For Front end, html and css is used.
+For Front end, html and css are used.
 
 For Backened, flask is used.
 
