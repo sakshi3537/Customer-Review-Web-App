@@ -1,4 +1,13 @@
 # Customer-Review-Web-App
+
+Built a Real time customer review system that takes a review from the customer and shows all existing reviews too.
+
+For Front end, html and css is used.
+For Backened, flask is used.
+For DataBase, sqlite is used.
+
+Some screenshots of the web app are attached here-
+
 https://user-images.githubusercontent.com/46393858/104131271-68e7f380-539b-11eb-9ced-1db39598dc3d.png
 
 https://user-images.githubusercontent.com/46393858/104131276-6b4a4d80-539b-11eb-8706-a5ff2c67eca4.png
