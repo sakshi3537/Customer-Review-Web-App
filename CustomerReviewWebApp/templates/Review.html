@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Review Page
+        </title>
+        <script type="text/javascript">
+        var ans = '{{var}}'
+        if (ans == 5) {
+            window.alert('Posted Successfully!');
+            ans=0;
+        }
+        </script>
+    </head>
+    <body style="background-image: url('../static/Foodreview.jpg');background-repeat:no-repeat;
+    background-size: cover;">
+        <div style="background-color: rgba(255,255,255,0.8);;width:40%;position: absolute;
+        top:0;bottom: 0;left: 0;right: 0;
+        margin: auto;padding-top: 40px;text-align: center;">
+            <span style="font-style: italic;font-size: 30px;text-decoration: underline;">Food Review Section</span><br><br><br><br>
+            <form action="http://127.0.0.1:5000/RecentReviews" method="POST" >
+                <label for="Customer-name">Customer name:</label><br><br>
+                <input type="text" id="Customer-name" name="Customer-name"><br><br>
+                <label for="Food-Product">Food product you would like to review:</label><br><br>
+                <input type="text" id="Food-Product" name="Food-Product"><br><br>
+                <label for="Review">Review:</label><br><br>
+                <textarea name="Review" rows="10" cols="30"></textarea><br><br>
+                <input type="submit" value="Post Review"><br><br>
+                <div id="alert" style="display:none;color:red"> Review Posted successfully!</div>
+            </form>
+            <a href="Main.html"> Back to Home page </a><br><br>
+            <span>To check the recent reviews,<br> Please click<br>
+                <a href="RecentReviews.html">Recent reviews</a>
+            </span>
+
+        </div>
+    </body>
+</html>
