@@ -10,6 +10,8 @@ For DataBase, sqlite is used.
 
 Some screenshots of the web app are attached here-
 
+![alt text](https://user-images.githubusercontent.com/46393858/104131271-68e7f380-539b-11eb-9ced-1db39598dc3d.png)
+
 https://user-images.githubusercontent.com/46393858/104131271-68e7f380-539b-11eb-9ced-1db39598dc3d.png
 
 https://user-images.githubusercontent.com/46393858/104131276-6b4a4d80-539b-11eb-8706-a5ff2c67eca4.png
